@@ -10,4 +10,6 @@ columns = ["Name", "Age"]
 
 df = spark.createDataFrame(data, columns)
 df.show()
+print(spark.version)
+
 spark.stop()
